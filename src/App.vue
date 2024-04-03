@@ -3,19 +3,22 @@
     <template v-if="mobile">
       <v-app-bar color="primary" scroll-behavior="hide">
         <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
-        <v-app-bar-title>NYCU Conference</v-app-bar-title>
+        <v-app-bar-title>
+          <router-link class="mobile-title" to="/">NYCU Conference</router-link>
+        </v-app-bar-title>
       </v-app-bar>
       <v-navigation-drawer v-model="drawer" temporary>
-        <v-list align="start">
-          <v-list-item to="/" title="首頁"></v-list-item>
-          <v-list-group>
-            <template v-slot:activator="{ props }">
-              <v-list-item v-bind="props" title="大會簡介"></v-list-item>
-            </template>
-            <v-list-item to="/about#section1" title="段落一"></v-list-item>
-            <v-list-item to="/about#section2" title="段落二"></v-list-item>
-            <v-list-item to="/about#section3" title="段落三"></v-list-item>
-          </v-list-group>
+        <v-list v-model:opened="openedList" open-strategy="single" align="start">
+          <template v-for="(route, i) in routes" :key="`route_${i}`">
+            <v-list-group v-if="isList(route)">
+              <template v-slot:activator="{ props }">
+                <v-list-item v-bind="props" :title="route.title"></v-list-item>
+              </template>
+              <v-list-item v-for="(subRoute, j) in route.path" :key="`route_${i}_${j}`" :to="subRoute.path"
+                :title="subRoute.title"></v-list-item>
+            </v-list-group>
+            <v-list-item v-else :to="route.path" :title="route.title"></v-list-item>
+          </template>
         </v-list>
       </v-navigation-drawer>
     </template>
@@ -30,17 +33,18 @@
           <v-spacer></v-spacer>
           <v-col align-self="center">
             <div class="d-flex align-center">
-              <v-btn to="/">首頁</v-btn>
-              <v-btn append-icon="mdi-menu-down">
-                大會簡介
-                <v-menu activator="parent">
-                  <v-list>
-                    <v-list-item to="/about#section1" title="段落一"></v-list-item>
-                    <v-list-item to="/about#section2" title="段落二"></v-list-item>
-                    <v-list-item to="/about#section3" title="段落三"></v-list-item>
-                  </v-list>
-                </v-menu>
-              </v-btn>
+              <template v-for="(route, i) in routes" :key="`route_${i}`">
+                <v-btn v-if="isList(route)" class="text-subtitle-1" append-icon="mdi-menu-down">
+                  {{ route.title }}
+                  <v-menu contained activator="parent" location="bottom center">
+                    <v-list>
+                      <v-list-item v-for="(subRoute, j) in route.path" :key="`route_${i}_${j}`" :to="subRoute.path"
+                        :title="subRoute.title"></v-list-item>
+                    </v-list>
+                  </v-menu>
+                </v-btn>
+                <v-btn v-else class="text-subtitle-1" :to="route.path" :text="route.title"></v-btn>
+              </template>
             </div>
           </v-col>
         </v-row>
@@ -87,12 +91,93 @@ export default {
   data() {
     return {
       drawer: false,
+      openedList: [],
+      routes: [
+        {
+          title: "Conference Name",
+          path: [
+            {
+              title: "Home",
+              path: "/",
+            },
+            {
+              title: "Keynote Speaker",
+              path: "/keynote_speaker",
+            },
+            {
+              title: "Program",
+              path: "/program",
+            },
+          ]
+        },
+        {
+          title: "Organization",
+          path: "/organization",
+        },
+        {
+          title: "Call for Papers",
+          path: [
+            {
+              title: "Call for Papers",
+              path: "/call_for_papers",
+            },
+            {
+              title: "Call for Special Sessions",
+              path: "/call_for_special_sessions",
+            },
+          ],
+        },
+        {
+          title: "Submission",
+          path: [
+            {
+              title: "Submission",
+              path: "/submission",
+            },
+            {
+              title: "Registration",
+              path: "/registration",
+            },
+            {
+              title: "Camera Ready Papers",
+              path: "/camera_ready_papers",
+            },
+          ],
+        },
+        {
+          title: "Workshops",
+          path: "/workshops",
+        },
+        {
+          title: "Venue",
+          path: "/venue",
+        },
+        {
+          title: "Sponsor",
+          path: [
+            {
+              title: "Sponsor",
+              path: "/sponsor",
+            },
+            {
+              title: "Sponsorship",
+              path: "/sponsorship",
+            },
+          ],
+        }
+      ]
     }
   },
   computed: {
-    mobile() { return this.$vuetify.display.mobile },
+    mobile() {
+      return this.$vuetify.display.mobile
+    },
   },
-
+  methods: {
+    isList(route) {
+      return Array.isArray(route.path)
+    }
+  },
 }
 </script>
 
@@ -104,5 +189,10 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+.mobile-title {
+  text-decoration: none;
+  color: #FFF;
 }
 </style>
