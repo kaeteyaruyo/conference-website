@@ -60,22 +60,22 @@
             <v-col :cols="(mobile ? 12 : 6)">
               <v-card flat class="bg-primary">
                 <v-card-text>
-                  <p class="text-subtitle-1">主辦單位｜國立陽明交通大學</p>
-                  <p class="text-subtitle-1">指導單位｜國立陽明交通大學</p>
-                  <p class="text-subtitle-1">承辦單位｜國立陽明交通大學</p>
+                  <p class="text-subtitle-1">Organizer｜College of Computer Science, National Yang Ming Chiao Tung University</p>
+                  <p class="text-subtitle-1">Co-organizer｜Information Technology Service Center, National Yang Ming Chiao Tung University</p>
+                  <p class="text-subtitle-1">Government Sponsor｜Ministry of Education / National Science and Technology Council</p>
                 </v-card-text>
               </v-card>
             </v-col>
             <v-col :cols="(mobile ? 12 : 6)">
               <v-card flat class="bg-primary">
                 <v-card-item>
-                  <v-card-title>協辦單位</v-card-title>
+                  <v-card-title>Academic Sponsor</v-card-title>
                   <v-divider :thickness="2"></v-divider>
                 </v-card-item>
                 <v-card-text>
-                  <p>單位一</p>
-                  <p>單位二</p>
-                  <p>單位三</p>
+                  <p>Computer Society, R.O.C.</p>
+                  <p>Academic Sinica</p>
+                  <p></p>
                 </v-card-text>
               </v-card>
             </v-col>
