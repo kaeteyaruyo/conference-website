@@ -1,15 +1,18 @@
 <template>
-  <v-container class="py-10">
-    <v-row>
-      <v-col align="center">
-        <h1 class="text-h3 mb-5">Sponsor</h1>
-      </v-col>
-    </v-row>
-  </v-container>
+  <basic-layout title="Sponsor">
+    <!-- TODO: 請將 <coming-soon> 標籤置換成正式內容 -->
+    <coming-soon></coming-soon>
+  </basic-layout>
 </template>
 
 <script>
-export default {
+import BasicLayout from '@/layouts/BasicLayout.vue'
+import ComingSoon from '@/components/ComingSoon.vue'
 
+export default {
+  components: {
+    BasicLayout,
+    ComingSoon,
+  }
 }
 </script>

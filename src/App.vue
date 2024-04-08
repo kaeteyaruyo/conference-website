@@ -4,7 +4,7 @@
       <v-app-bar color="primary" scroll-behavior="hide">
         <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
         <v-app-bar-title>
-          <router-link class="mobile-title" to="/">NYCU Conference</router-link>
+          <router-link class="mobile-title" to="/">ICS 2024</router-link>
         </v-app-bar-title>
       </v-app-bar>
       <v-navigation-drawer v-model="drawer" temporary>
@@ -27,6 +27,7 @@
         <v-row>
           <v-col>
             <router-link style="min-height: fit-content;" to="/">
+              <!-- TODO: 請將 Logo（還有 favicon）置換成正確的檔案 -->
               <img style="filter: brightness(0) invert(1);" height="44px" src="./assets/logo.png" />
             </router-link>
           </v-col>
@@ -51,7 +52,8 @@
       </v-container>
     </v-app-bar>
     <v-main class="pt-0">
-      <RouterView />
+      <router-view />
+      <!-- TODO: 請填入正確的 footer 內容 -->
       <v-footer class="bg-primary">
         <v-container>
           <v-row>
@@ -94,7 +96,7 @@ export default {
       openedList: [],
       routes: [
         {
-          title: "Conference Name",
+          title: "ICS 2024",
           path: [
             {
               title: "Home",
@@ -189,6 +191,15 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+.v-main {
+  display: grid;
+  grid-template-rows: auto min-content;
+}
+
+.v-application__wrap {
+  min-height: calc(100dvh - 60px) !important;
 }
 
 .mobile-title {

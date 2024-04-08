@@ -1,43 +1,24 @@
 <template>
-    <v-carousel class="width-100" cycle :show-arrows="false">
-        <v-carousel-item :src="require('@/assets/photo1.jpg')" cover></v-carousel-item>
-        <v-carousel-item :src="require('@/assets/photo2.jpg')" cover></v-carousel-item>
-        <v-carousel-item :src="require('@/assets/photo3.jpg')" cover></v-carousel-item>
-    </v-carousel>
-    <v-container class="py-10">
-        <v-row>
-            <v-col align="center">
-                <h1 class="text-h3 mb-5">NYCU Conference</h1>
-            </v-col>
-        </v-row>
-        <v-row>
-            <v-col align="start">
-                <h2 class="text-h4">Subtitle 1</h2>
-                <v-divider class="my-3"></v-divider>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.</p>
-            </v-col>
-        </v-row>
-        <v-row>
-            <v-col align="start">
-                <h2 class="text-h4">Subtitle 2</h2>
-                <v-divider class="my-3"></v-divider>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <a
-                        href="https://some.external.website">tempor incididunt ut labore</a> et dolore magna aliqua. Ut
-                    enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                    mollit anim id est laborum.</p>
-            </v-col>
-        </v-row>
-    </v-container>
+  <!-- TODO: 請將圖片置換成正確的檔案 -->
+  <v-carousel class="width-100" cycle :show-arrows="false">
+    <v-carousel-item :src="require('@/assets/photo1.jpg')" cover></v-carousel-item>
+    <v-carousel-item :src="require('@/assets/photo2.jpg')" cover></v-carousel-item>
+    <v-carousel-item :src="require('@/assets/photo3.jpg')" cover></v-carousel-item>
+  </v-carousel>
+  <basic-layout title="ICS 2024: 2024 International Computer Symposium">
+    <!-- TODO: 請將 <coming-soon> 標籤置換成正式內容 -->
+      <coming-soon></coming-soon>
+  </basic-layout>
 </template>
 
 <script>
-export default {
+import BasicLayout from '@/layouts/BasicLayout.vue'
+import ComingSoon from '@/components/ComingSoon.vue'
 
+export default {
+  components: {
+    BasicLayout,
+    ComingSoon,
+  }
 }
 </script>

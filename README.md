@@ -1,4 +1,4 @@
-# NYCU Conference website
+# ICS 2024 Info Page
 
 ## Prerequisite
 
@@ -13,6 +13,7 @@
 ```
 npm install
 ```
+
 ### Compiles and hot-reloads for development
 
 執行以下指令以啟動開發用伺服器，一旦伺服器啟動，即可於本地端看到網頁內容，所有修改會即時更新。

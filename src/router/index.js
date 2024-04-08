@@ -13,6 +13,8 @@ import WorkshopsView from '@/views/WorkshopsView.vue'
 import VenueView from '@/views/VenueView.vue'
 import SponsorView from '@/views/SponsorView.vue'
 import SponsorshipView from '@/views/SponsorshipView.vue'
+import PlaygroundView from '@/views/PlaygroundView.vue'
+import NotFoundView from '@/views/NotFoundView.vue'
 
 const routes = [
   {
@@ -80,7 +82,16 @@ const routes = [
     component: SponsorshipView,
     meta: { title: "Sponsorship", },
   },
-]
+  {
+    path: "/playground",
+    component: PlaygroundView,
+    meta: { title: "Playground", },
+  },
+  {
+    path: '/:path(.*)*',
+    component: NotFoundView,
+    meta: { title: "Page Not Found", },
+  },]
 
 const router = createRouter({
   routes,
@@ -92,7 +103,7 @@ const router = createRouter({
 
 // Check user status to decide if he / she can go to next page.
 router.beforeEach(async (to) => {
-  document.title = `${to.meta.title} - NYCU Conference`
+  document.title = `${to.meta.title} - 2024 International Computer Symposium`
 })
 
 export default router
