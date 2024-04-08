@@ -23,7 +23,7 @@
       </ol>
     </text-section>
     <text-section sub-title="Submission">
-Submissions should be made through the ICS 2024 submission page, handled by the EasyChair conference management system: https://easychair.org/conferences/?conf=ics2024
+    Submissions should be made through the ICS 2024 submission page, handled by the EasyChair conference management system: <a href="https://easychair.org/conferences/?conf=ics2024">https://easychair.org/conferences/?conf=ics2024</a>
     </text-section>
     <text-section sub-title="Important Dates">
       <ul class="pl-8">

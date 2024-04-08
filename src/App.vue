@@ -60,8 +60,9 @@
             <v-col :cols="(mobile ? 12 : 6)">
               <v-card flat class="bg-primary">
                 <v-card-text>
-                  <p class="text-subtitle-1">Organizer｜College of Computer Science, National Yang Ming Chiao Tung University</p>
-                  <p class="text-subtitle-1">Co-organizer｜Information Technology Service Center, National Yang Ming Chiao Tung University</p>
+                  <p class="text-subtitle-1">Organizer｜National Yang Ming Chiao Tung University</p>
+                  <!-- <p class="text-subtitle-1">Co-organizer｜Information Technology Service Center, National Yang Ming Chiao Tung University</p>
+                  -->
                   <p class="text-subtitle-1">Government Sponsor｜Ministry of Education / National Science and Technology Council</p>
                 </v-card-text>
               </v-card>
