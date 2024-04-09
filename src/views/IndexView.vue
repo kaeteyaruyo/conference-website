@@ -8,19 +8,23 @@
   <basic-layout title="ICS 2024: 2024 International Computer Symposium">
     <!-- TODO: 請將 <coming-soon> 標籤置換成正式內容 -->
     <!--  <coming-soon></coming-soon> -->
-    International Computer Symposium (ICS) is one of the most prestigious international ICT symposiums held in Taiwan. Founded in 1973, it is intended to provide a forum for researchers, educators, and professionals to exchange their discoveries and practices, and to explore future trends and applications in computer technologies. The biennial symposium offers a great opportunity to share research experiences and to discuss potential new trends in the ICT industry. ICS 2024 will provide workshops, panels and keynotes to facilitate discourse on and deepen the understanding of the challenges in computer and communication technologies.
-      This year, ICS 2024 will be held at National Yang Ming Chiao Tung University, Taipei, Taiwan, on October 24-26, 2024
   </basic-layout>
+    <text-section sub-title="">
+    <p align="left">International Computer Symposium (ICS) is one of the most prestigious international ICT symposiums held in Taiwan. Founded in 1973, it is intended to provide a forum for researchers, educators, and professionals to exchange their discoveries and practices, and to explore future trends and applications in computer technologies. The biennial symposium offers a great opportunity to share research experiences and to discuss potential new trends in the ICT industry. ICS 2024 will provide workshops, panels and keynotes to facilitate discourse on and deepen the understanding of the challenges in computer and communication technologies.</p>
+    <p align="left">This year, ICS 2024 will be held at National Yang Ming Chiao Tung University, Taipei, Taiwan, on October 24-26, 2024</p>
+    </text-section>
 </template>
 
 <script>
 import BasicLayout from '@/layouts/BasicLayout.vue'
 // import ComingSoon from '@/components/ComingSoon.vue' 
+import TextSection from '@/components/TextSection.vue'
 
 export default {
   components: {
     BasicLayout,
   //  ComingSoon,
+    TextSection,
   }
 }
 </script>

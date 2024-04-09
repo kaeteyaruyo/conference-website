@@ -8,30 +8,28 @@
       <p>All papers must be original and not simultaneously submitted to another journal or conference. The conference
         will include the following workshops:
       </p>
-      <ol class="pl-8">
-        <li>Algorithms, Bioinformatics, and Computation Theory </li>
-        <li>Cloud Computing and Big Data</li>
-        <li>Computer Vision and Image Processing</li>
-        <li>Cryptography and Quantum Computing</li>
-        <li>Mobile and Wireless Network</li>
-        <li>Autonomous Driving and UAV</li>
-        <li>AR/MR and Human Computer Interaction</li>
-        <li>Computer Architecture, Embedded Systems, SoC, and VLSI/EDA</li>
-        <li>Natural Language Processing and Information Retrieval</li>
-        <li>Cybersecurity Attack, Defense, and Resilience (Cadence)</li>
-        <li>AI/ML Application</li>
-      </ol>
+        <p>Algorithms, Bioinformatics, and Computation Theory </p>
+        <p>Cloud Computing and Big Data</p>
+        <p>Computer Vision and Image Processing</p>
+        <p>Cryptography and Quantum Computing</p>
+        <p>Mobile and Wireless Network</p>
+        <p>Autonomous Driving and UAV</p>
+        <p>AR/MR and Human Computer Interaction</p>
+        <p>Computer Architecture, Embedded Systems, SoC, and VLSI/EDA</p>
+        <p>Natural Language Processing and Information Retrieval</p>
+        <p>Cybersecurity Attack, Defense, and Resilience (Cadence)</p>
+        <p>AI/ML Application</p>
     </text-section>
     <text-section sub-title="Submission">
-    Submissions should be made through the ICS 2024 submission page, handled by the EasyChair conference management system: <a href="https://easychair.org/conferences/?conf=ics2024">https://easychair.org/conferences/?conf=ics2024</a>
+     <p>Submissions should be made through the ICS 2024 submission page, handled by the EasyChair conference management system: <a href="https://easychair.org/conferences/?conf=ics2024">https://easychair.org/conferences/?conf=ics2024</a></p>
     </text-section>
     <text-section sub-title="Important Dates">
-      <ul class="pl-8">
-        <li>Paper submission due date: June 15 ,2024</li>
-        <li>Paper notification: August 15, 2024</li>
-        <li>Final paper due date: September 15 ,2024</li>
-        <li>Conference date: October 24-26, 2024</li>
-      </ul>
+      
+        <p>Paper submission due date: June 15 ,2024</p>
+        <p>Paper notification: August 15, 2024</p>
+        <p>Final paper due date: September 15 ,2024</p>
+        <p>Conference date: October 24-26, 2024</p>
+      
     </text-section>
     <text-section sub-title="Venue">
       <p>

@@ -27,6 +27,7 @@ export default {
 
 <style>
 .text-section p {
+  font-size: 24px;
   margin-bottom: 16px;
 }
 </style>
