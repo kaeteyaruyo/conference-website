@@ -29,13 +29,19 @@
     
     </text-section>
 
+    <text-section sub-title="Panel Chairs">
+    
+       <p>Chien Chen,  National Yang Ming Chiao Tung University, Taiwan</p>
+
+    </text-section>
+
     <text-section sub-title="Industry Program Chairs">
     
        <p>Tien-Fu Chen,  National Yang Ming Chiao Tung University, Taiwan</p>
     
     </text-section>
 
-    <text-section sub-title="Pubpcation Chairs">
+    <text-section sub-title="Publication Chairs">
     
        <p>Lan-Da Van,  National Yang Ming Chiao Tung University, Taiwan</p>
        <p>Wen-Hsiao Peng,  National Yang Ming Chiao Tung University, Taiwan</p>
@@ -60,7 +66,7 @@
     
     </text-section>
 
-    <text-section sub-title="Pubpcity Chairs">
+    <text-section sub-title="Publicity Chairs">
     
        <p>Jiun-Long Huang,  National Yang Ming Chiao Tung University, Taiwan</p>
        <p>Albert Chih-Chieh Yang,  National Yang Ming Chiao Tung University, Taiwan</p>
@@ -75,7 +81,7 @@
 
     <text-section sub-title="Web Chairs">
     
-       <p>Liwei Chan,  National Yang Ming Chiao Tung University, Taiwan</p>
+       <p>Yu-Shuen Wang,  National Yang Ming Chiao Tung University, Taiwan</p>
     
     </text-section>
 

@@ -27,12 +27,13 @@
     <text-section sub-title="Cryptography and Quantum Computing">
     <p>Chairs:</p>
        <p>Ching-Yi Lai, National Yang Ming Chiao Tung University, Taiwan</p>
+       <p>Lo-Yao Yeh, National Central University, Taiwan</p>
     </text-section>
 
     <text-section sub-title="Mobile and Wireless Network">
     <p>Chairs:</p>
         <p>Jiann-Liang Chen, National Taiwan University of Science and Technology, Taiwan</p>
-        <p>Chi-Yu Li, National Yang Ming Chiao Tung University, Taiwan</p>
+        <p>You-Chiun Wang, National Sun Yat-sen University, Taiwan</p>
     </text-section>
 
     <text-section sub-title="Autonomous Driving and UAV">
@@ -42,10 +43,11 @@
         <p>Wei-Chen Chiu, National Yang Ming Chiao Tung University, Taiwan</p>
     </text-section>
 
-    <text-section sub-title="AR/MR and Human Computer Interaction">
+    <text-section sub-title="Human Computer Interaction and AR/VR/MR">
     <p>Chairs:</p>
-        <p>Liwei Chan, National Yang Ming Chiao Tung University, Taiwan</p>
         <p>Yung-Ju Chang, National Yang Ming Chiao Tung University, Taiwan</p>
+        <p>Liwei Chan, National Yang Ming Chiao Tung University, Taiwan</p>
+        <p>Yu-Chun Yen, National Yang Ming Chiao Tung University, Taiwan</p>
     </text-section>
 
     <text-section sub-title="Computer Architecture, Embedded Systems, SoC, and VLSI/EDA">
@@ -57,7 +59,9 @@
 
     <text-section sub-title="Natural Language Processing and Information Retrieval">
     <p>Chairs:</p>
+        <p>Lun-Wei Ku, Academia Sinica, Taiwan</p>
         <p>An-Zi Yen, National Yang Ming Chiao Tung University, Taiwan</p>
+        <p>Yang Lou, National Yang Ming Chiao Tung University, Taiwan</p>
     </text-section>
 
     <text-section sub-title="Cybersecurity Attack, Defense, and Resilience (Cadence)">
@@ -66,9 +70,9 @@
         <p>Yu-Sung Wu, National Yang Ming Chiao Tung University, Taiwan</p>
     </text-section>
 
-    <text-section sub-title="AI/ML Application">
+    <text-section sub-title="AI/ML and Application">
     <p>Chairs:</p>
-        <p>TBD</p>
+        <p>Ti-Rong Wu, Academia Sinica, Taiwan</p>
     </text-section>
       
 </template>
