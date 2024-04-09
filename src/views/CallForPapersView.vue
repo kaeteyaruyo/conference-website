@@ -8,17 +8,17 @@
       <p>All papers must be original and not simultaneously submitted to another journal or conference. The conference
         will include the following workshops:
       </p>
-        <p>Algorithms, Bioinformatics, and Computation Theory </p>
-        <p>Cloud Computing and Big Data</p>
-        <p>Computer Vision and Image Processing</p>
-        <p>Cryptography and Quantum Computing</p>
-        <p>Mobile and Wireless Network</p>
-        <p>Autonomous Driving and UAV</p>
-        <p>AR/MR and Human Computer Interaction</p>
-        <p>Computer Architecture, Embedded Systems, SoC, and VLSI/EDA</p>
-        <p>Natural Language Processing and Information Retrieval</p>
-        <p>Cybersecurity Attack, Defense, and Resilience (Cadence)</p>
-        <p>AI/ML Application</p>
+        <p>1. Algorithms, Bioinformatics, and Computation Theory </p>
+        <p>2. Cloud Computing and Big Data</p>
+        <p>3. Computer Vision and Image Processing</p>
+        <p>4. Cryptography and Quantum Computing</p>
+        <p>5. Mobile and Wireless Network</p>
+        <p>6. Autonomous Driving and UAV</p>
+        <p>7. Human Computer Interaction and AR/VR/MR</p>
+        <p>8. Computer Architecture, Embedded Systems, SoC, and VLSI/EDA</p>
+        <p>9. Natural Language Processing and Information Retrieval</p>
+        <p>10. Cybersecurity Attack, Defense, and Resilience (Cadence)</p>
+        <p>11. AI/ML and Application</p>
     </text-section>
     <text-section sub-title="Submission">
      <p>Submissions should be made through the ICS 2024 submission page, handled by the EasyChair conference management system: <a href="https://easychair.org/conferences/?conf=ics2024">https://easychair.org/conferences/?conf=ics2024</a></p>
