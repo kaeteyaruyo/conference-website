@@ -12,7 +12,7 @@
         <p>2. Cloud Computing and Big Data</p>
         <p>3. Computer Vision and Image Processing</p>
         <p>4. Cryptography and Quantum Computing</p>
-        <p>5. Mobile and Wireless Network</p>
+        <p>5. Mobile and Wireless Networks</p>
         <p>6. Autonomous Driving and UAV</p>
         <p>7. Human Computer Interaction and AR/VR/MR</p>
         <p>8. Computer Architecture, Embedded Systems, SoC, and VLSI/EDA</p>

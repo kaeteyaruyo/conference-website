@@ -30,7 +30,7 @@
        <p>Lo-Yao Yeh, National Central University, Taiwan</p>
     </text-section>
 
-    <text-section sub-title="Mobile and Wireless Network">
+    <text-section sub-title="Mobile and Wireless Networks">
     <p>Chairs:</p>
         <p>Jiann-Liang Chen, National Taiwan University of Science and Technology, Taiwan</p>
         <p>You-Chiun Wang, National Sun Yat-sen University, Taiwan</p>
