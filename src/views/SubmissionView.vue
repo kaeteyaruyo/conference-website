@@ -6,7 +6,17 @@
 
     <text-section sub-title="Paper Submission Format">
  <p align="left">
-    Papers must be submitted electronically using the IEEE Xplore compatible PDF via the websites. All papers will be peer-reviewed. Papers should be in English, not exceeding 6 double-column pages for regular paper (not exceeding 2 double-column pages for short paper), including figures, tables, references, and appendices (10-point font).
+    Papers must be submitted electronically using the IEEE Xplore compatible PDF via the websites. All papers will be peer-reviewed. 
+    Papers must be written in English, not exceeding the page limit (see below), including figures, tables, references, and appendices (10-point font). Accepted papers will be presented in oral or poster format, depending on venue space and time constraints. Two types of submission are allowed:
+ </p>
+ <p align="left">
+    <ol>
+    <li>Regular paper: 4 to 6 double-column pages, with 1 additional page allowed with the purchase of additional page charges at the time of registration and final paper submission. Only regular papers could be submitted to IEEE Xplore.</li>
+      <li>Short paper: not exceeding 2 double-column pages. 
+      Short papers will be presented in poster format only. Short papers will not be submitted to IEEE Xplore.</li>
+    </ol>
+ </p>
+ <p align="left">
     Please use the standard IEEE conference proceedings templates for Microsoft Word or LaTeX formats found at <a href="http://www.ieee.org/conferences_events/conferences/publishing/templates.html">http://www.ieee.org/conferences_events/conferences/publishing/templates.html</a>.</p>
  <p align="left">
     Submissions should be made through the ICS 2024 submission page, handled by the EasyChair conference management system: <a href="https://easychair.org/conferences/?conf=ics2024">https://easychair.org/conferences/?conf=ics2024</a></p>
